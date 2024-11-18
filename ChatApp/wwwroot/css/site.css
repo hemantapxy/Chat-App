@@ -1,0 +1,34 @@
+.chat-messages {
+  height: 400px;
+  overflow-y: auto;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 4px;
+}
+
+.message {
+  margin-bottom: 15px;
+  padding: 10px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.message strong {
+  color: #007bff;
+  margin-right: 10px;
+}
+
+.message .time {
+  color: #6c757d;
+  font-size: 0.8em;
+}
+
+.message p {
+  margin: 5px 0 0;
+  color: #212529;
+}
+
+.input-group {
+  margin-top: 15px;
+}
